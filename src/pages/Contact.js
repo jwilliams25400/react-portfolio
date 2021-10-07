@@ -6,7 +6,7 @@ function Contact() {
       <div className="contact-info container">
         <h2>Contact</h2>
         <p>
-          Interested in learning more about skills? I would enjoy learning more
+          Interested in learning more about my skills? I would enjoy learning more
           about the opportunity you have. Please feel free to reach out to me
           with the contact information listed below.
           <br />
