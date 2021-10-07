@@ -2,8 +2,8 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="wrapper contact-container">
-      <div className="contact-info container">
+    <div className="container wrapper contact-container">
+      <div className="contact-info container m-8">
         <h2>Contact</h2>
         <p>
           Interested in learning more about my skills? I would enjoy learning more

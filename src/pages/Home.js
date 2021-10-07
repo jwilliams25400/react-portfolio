@@ -5,7 +5,7 @@ import Typed from "react-typed";
 // TODO
 /// need to make css for styling
 
-const Home = () => {
+function Home () {
   return (
     <div id="home" className="homePage">
       <div classname="homeIntro">
@@ -18,7 +18,7 @@ const Home = () => {
           backspeed={60}
           loop
         />
-        <link
+        <Link
           smooth={true}
           to="aboutMe"
           offset={-75}
@@ -26,7 +26,7 @@ const Home = () => {
           href="/#aboutMe"
         >
           About Me
-        </link>
+        </Link>
       </div>
     </div>
   );

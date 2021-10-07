@@ -2,7 +2,7 @@ import React from "react";
 import profilePhoto from "../images/profile.jpg";
 
 
-const AboutMe = () => {
+function AboutMe () {
     return (
         <div className="aboutme-wrapper">
             <div className="container">

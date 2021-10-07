@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 // need to make a css page an import some styling
 
-const Navbar = () => {
+function Navbar () {
     return (
      <div className="Navbar-wrapper">
        <nav className="navbar navbar-expand-lg light-blue darken-4 navbar-fixed">
@@ -11,10 +11,11 @@ const Navbar = () => {
            <h1 className="name-logo" >Jemel</h1> 
          </div>    
          <ul className="nav-items">
-            <li className="nav-item" id="home"><Link to="/Home" className="nav-link active" onClick={}></Link>Home</li>
-            <li className="nav-item" id="aboutMe"><Link to="/aboutme" className="nav-link active" onClick={}></Link>About Me</li>
-            <li className="nav-item" id="portfolio"><Link to="/portfolio" className="nav-link active" onClick={}></Link>Portfolio</li>
-            <li className="nav-item" id="contact"><Link to="/contact" className="nav-link active" onClick={}></Link>Contact</li>
+            <Link to="/Home" className="nav-item" id="home">HomePage</Link>
+            <a className="nav-item" href="http://linkedin.com/in/jemel-williamsicams-a5b14014/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <Link to="/aboutme" className="nav-item" id="aboutMe">About Me</Link>
+            <Link to="/portfolio" className="nav-item" id="portfolio">Portfolio</Link>
+            <Link to="/contact" className="nav-item" id="contact">Contact</Link>
             
         </ul>    
         
