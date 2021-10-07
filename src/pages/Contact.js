@@ -3,10 +3,14 @@ import React from "react";
 
 
 
-const Contact = () => {
+function Contact () {
+    return(
     <div className="wrapper contact-container">
         <div className="contact-info container">
-            <h1>Contact</h1>
+            <h2>Contact</h2>
+            <p> Interested in learning more about skills? I would enjoy learning more about the opportunity you have. Please feel free to reach out to me with the contact information listed below.<br/>
+            Thanks
+            </p>
 
         <div className="contact-details row">
             <div className="col s12">
@@ -18,13 +22,7 @@ const Contact = () => {
 
         </div>
 
-
-
-
-
-
-
-
-
     </div>
-}
+)}
+
+export default Contact;
