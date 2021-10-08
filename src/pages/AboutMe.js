@@ -24,9 +24,9 @@ function AboutMe() {
             rubost knowledge of HTML, CSS, Javascript, jquery, nodejs, mongo &
             react. In the Rutgers Coding Bootcamp I have learned hands on
             experience in building state of the art, easy to use, responsive,
-            user-friendly applications. As I learn more and acquire new skills I
-            will continue to update my portfolio with my latest work. I pride
-            myself on being detailed oriented, analytical and driven.
+            user-friendly applications. I pride myself on being detailed oriented, 
+            analytical and driven. As I learn more and acquire new skills I
+            will continue to update my portfolio with my latest work. 
           </p>
         </div>
       </div>
