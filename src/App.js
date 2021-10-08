@@ -7,7 +7,22 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer"
 
 function App() {
-    return 
+    return (
+        <>
+        <Navbar />
+        <Switch>
+        <Route></Route>
+        <Route></Route>
+        <Route></Route>
+        <Route></Route>
+        </Switch>
+
+
+
+
+        <Footer />
+        </>
+    )
 }
 
 
