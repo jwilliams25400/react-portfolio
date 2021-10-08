@@ -4,7 +4,9 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -18,7 +20,12 @@ function App() {
         <Route path="AboutMe" exact>
           <AboutMe />
         </Route>
-        <Route path="Contact" exact></Route>
+        <Route path="Contact" exact>
+        <Contact />
+        </Route>
+        <Route path="Portfolio" exact>
+        <Portfolio />
+        </Route>
       </Switch>
       
       <Footer />
