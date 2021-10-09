@@ -1,5 +1,5 @@
 import React from "React";
-import { Link } from " react-router-dom";
+import { Link } from "react-router-dom";
 import Typed from "react-typed";
 
 // TODO
