@@ -8,12 +8,29 @@ import Portfolio from "./pages/Portfolio";
 import Footer from "./Footer";
 
 function PortfolioContainer() {
+  const [currentPage, setCurrentPage] = useState("Home");
+  
+  const renderPage= () => {
+    if (currentPage === 'Home') {
+      return <Home />;
+    }
+    if (currentPage === 'About') {
+      return <AboutMe />;
+    }
+    if (currentPage === 'Blog') {
+      return <Blog />;
+    }
+    return <Contact />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <Router>
-      <>
-        <Navbar />
+    <>
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
 
-        <Switch>
+      <Switch>
           <Route exact path="/" component={Home}>
             <Home />
           </Route>
@@ -29,9 +46,36 @@ function PortfolioContainer() {
         </Switch>
 
         <Footer />
-      </>
+    
+      {renderPage()}
+    </>
     </Router>
   );
+
+  // return (
+  //   <Router>
+  //     <>
+  //       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+
+  //       <Switch>
+  //         <Route exact path="/" component={Home}>
+  //           <Home />
+  //         </Route>
+  //         <Route exact path="/AboutMe" component={AboutMe}>
+  //           <AboutMe />
+  //         </Route>
+  //         <Route exact path="/Contact"component={Contact}>
+  //           <Contact />
+  //         </Route>
+  //         <Route exact path="/Portfolio" component={Portfolio}>
+  //           <Portfolio />
+  //         </Route>
+  //       </Switch>
+
+  //       <Footer />
+  //     </>
+  //   </Router>
+  // );
 }
 
 export default PortfolioContainer;

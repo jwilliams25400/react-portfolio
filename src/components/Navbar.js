@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 // need to make a css page an import some styling
 
-function Navbar({click}) {
+function Navbar({currentPage, handlePageChange}) {
   return (
     <div className="nav navbar-wrapper">
       <nav className="navbar navbar-expand-lg light-blue darken-4 navbar-fixed">
         <div className="name">
           <h1 className="name-logo">Jemel</h1>
         </div>
-        <ul className="nav-items">
+        <ul className="nav nav-items">
           <Link
             to="/Home"
             exact
@@ -18,7 +18,7 @@ function Navbar({click}) {
             // activeClassName="active"
             // className="nav-item"
             id="homepage"
-            onClick={click}
+            onClick={() => handlePageChange("Home")}
           >
             HomePage
           </Link>
@@ -29,7 +29,7 @@ function Navbar({click}) {
             href="http://linkedin.com/in/jemel-williamsicams-a5b14014/"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={click}
+            onClick={() => handlePageChange("LinkedIn")}
           >
             LinkedIn
           </a>
@@ -40,7 +40,7 @@ function Navbar({click}) {
             // activeClassName="active"
             // className="nav-item"
             id="aboutMe"
-            onClick={click}
+            onClick={() => handlePageChange("AbougtMe")}
           >
             About Me
           </Link>
@@ -51,7 +51,7 @@ function Navbar({click}) {
             // activeClassName="active"
             // className="nav-item"
             id="portfolio"
-            onClick={click}
+            onClick={() => handlePageChange("Portfolio")}
           >
             Portfolio
           </Link>
@@ -62,7 +62,7 @@ function Navbar({click}) {
             // activeClassName="active"
             // className="nav-item"
             id="contact"
-            onClick={click}
+            onClick={() => handlePageChange("Contact")}
           >
             Contact
           </Link>
