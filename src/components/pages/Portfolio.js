@@ -11,7 +11,7 @@ import workDayScheduler from "../../images/workDayScheduler.jpg";
 
 function Portfolio() {
   return (
-    <div className="wrapper container">
+    <div className="row wrapper-container">
       <div className="cards">
         <div className="col s6 m-4">
           <a href="https://fitness-tracker-jw21.herokuapp.com/">

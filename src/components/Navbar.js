@@ -5,12 +5,12 @@ import React from "react";
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <div className="nav navbar-wrapper">
-      <nav className="navbar navbar-expand-lg light-blue darken-4 navbar-fixed">
+    // < className="nav nav-bar-expand-lg navbar-wrapper">
+      <nav className="navbar navbar-expand-lg nav-light bg-light">
         <div className="name">
           <h1 className="name-logo">Jemel</h1>
         </div>
-        <ul className="nav nav-items align-content">
+        <ul className="nav nav-items d-flex">
           <li className="nav nav-item">
             <a
               href="#home"
@@ -124,7 +124,6 @@ function Navbar({ currentPage, handlePageChange }) {
           </Link> */}
         </ul>
       </nav>
-    </div>
   );
 }
 export default Navbar;
