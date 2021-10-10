@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Typed from "react-typed";
 
 // TODO
 /// need to make css for styling
 
-function Home () {
+function Home() {
   return (
     <div id="home" className="homePage">
       <div classname="homeIntro">
@@ -18,18 +18,18 @@ function Home () {
           backspeed={60}
           loop
         />
-        <Link
-          smooth={true}
-          to="aboutMe"
-          offset={-75}
-          className="btn-main-offer"
-          href="/#aboutMe"
+
+        <a
+          href="#aboutMe"
+          className="btn btn-primary btn-lg"
+          role="button"
+          data-bs-toggle="button"
         >
           About Me
-        </Link>
+        </a>
       </div>
     </div>
   );
-};
+}
 
 export default Home;

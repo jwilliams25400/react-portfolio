@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Router, Route, Switch } from "react-router-dom";
+// import { Router, Route, Switch } from "react-router-dom";
 import Navbar from "./Navbar";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
@@ -14,11 +14,11 @@ function PortfolioContainer() {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'About') {
+    if (currentPage === 'AboutMe') {
       return <AboutMe />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
+    if (currentPage === 'Profolio') {
+      return <Portfolio />;
     }
     return <Contact />;
   };
@@ -26,11 +26,13 @@ function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <Router>
+    // <Router>
     <>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
 
-      <Switch>
+      {renderPage()}
+
+      {/* <Switch>
           <Route exact path="/" component={Home}>
             <Home />
           </Route>
@@ -43,13 +45,12 @@ function PortfolioContainer() {
           <Route exact path="/Portfolio" component={Portfolio}>
             <Portfolio />
           </Route>
-        </Switch>
+        </Switch> */}
 
-        <Footer />
-    
-      {renderPage()}
+        <Footer />  
+        {renderPage()} 
     </>
-    </Router>
+    // </Router>
   );
 
   // return (

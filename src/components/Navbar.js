@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 // need to make a css page an import some styling
 
-function Navbar({currentPage, handlePageChange}) {
+function Navbar({ currentPage, handlePageChange }) {
   return (
     <div className="nav navbar-wrapper">
       <nav className="navbar navbar-expand-lg light-blue darken-4 navbar-fixed">
@@ -11,7 +11,63 @@ function Navbar({currentPage, handlePageChange}) {
           <h1 className="name-logo">Jemel</h1>
         </div>
         <ul className="nav nav-items">
-          <Link
+          <li className="nav nav-item">
+            <a
+              href="#home"
+              onClick={() => handlePageChange("Home")}
+              className={
+                currentPage === "Home" ? "nav-link active" : "nav-link"
+              }
+            >
+              HomePage
+            </a>
+          </li>
+
+          <li className="nav nav-item">
+            <a
+              href="http://linkedin.com/in/jemel-williamsicams-a5b14014/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </li>
+
+          <li className="nav nav-item">
+            <a
+              href="#aboutMe"
+              onClick={() => handlePageChange("AboutMe")}
+              className={
+                currentPage === "AboutMe" ? "nav-link active" : "nav-link"
+              }
+            >
+              About Me
+            </a>
+          </li>
+          <li className="nav nav-item">
+            <a
+              href="#portfolio"
+              onClick={() => handlePageChange("Portfolio")}
+              className={
+                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+              }
+            >
+              Portfolio
+            </a>
+          </li>
+          <li className="nav nav-item">
+            <a
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
+            </a>
+          </li>
+
+          {/* <Link
             to="/Home"
             exact
             className={currentPage === "Home" ? "nav-link active" : "nav-link"}
@@ -65,7 +121,7 @@ function Navbar({currentPage, handlePageChange}) {
             onClick={() => handlePageChange("Contact")}
           >
             Contact
-          </Link>
+          </Link> */}
         </ul>
       </nav>
     </div>
