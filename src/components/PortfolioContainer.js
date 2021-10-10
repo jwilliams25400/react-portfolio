@@ -17,7 +17,7 @@ function PortfolioContainer() {
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
     }
-    if (currentPage === 'Profolio') {
+    if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
     return <Contact />;
@@ -48,7 +48,6 @@ function PortfolioContainer() {
         </Switch> */}
 
         <Footer />  
-        {renderPage()} 
     </>
     // </Router>
   );

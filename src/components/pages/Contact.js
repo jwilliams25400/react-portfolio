@@ -14,13 +14,13 @@ function Contact() {
         </p>
       </div>
 
-      <div className="contact-details row">
+      {/* <div className="contact-details row">
         <h4>917-941-6748</h4>
         <br />
         <h4>JWilliams25400@yahoo.com</h4>
         <br />
         <h4>JWilliams25400</h4>
-      </div>
+      </div> */}
     </div>
   );
 }

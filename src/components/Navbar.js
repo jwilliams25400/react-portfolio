@@ -10,7 +10,7 @@ function Navbar({ currentPage, handlePageChange }) {
         <div className="name">
           <h1 className="name-logo">Jemel</h1>
         </div>
-        <ul className="nav nav-items">
+        <ul className="nav nav-items align-content">
           <li className="nav nav-item">
             <a
               href="#home"

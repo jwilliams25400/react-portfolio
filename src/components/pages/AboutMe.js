@@ -19,8 +19,8 @@ function AboutMe() {
           <p>
             My name is Jemel, I hold a Bachelors degree in finance from Seton
             Hall University. I've worked in the financial industry for 7+ years,
-            Most recently as a wealth management advisor. I am currently
-            enrolled in Rutgers University fullstack Coding Bootcamp. I have a
+            Most recently as a Private Client Wealth Advisor. I am currently
+            enrolled in Rutger's University Fullstack Coding Bootcamp. I have
             rubost knowledge of HTML, CSS, Javascript, jquery, nodejs, mongo &
             react. In the Rutgers Coding Bootcamp I have learned hands on
             experience in building state of the art, easy to use, responsive,

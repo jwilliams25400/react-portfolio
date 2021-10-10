@@ -30,7 +30,7 @@ function Portfolio() {
             href="https://github.com/jwilliams25400/Fitness-Tracker"
             target="_blank"
             rel="noopener noreferrer"
-            className="m-2"
+            className="m-3"
           >
             Github
           </a>
@@ -53,7 +53,7 @@ function Portfolio() {
             href="https://github.com/Trgrf/MovieCharacters"
             target="_blank"
             rel="noopener noreferrer"
-            className="m-2"
+            className="m-3"
           >
             Github
           </a>
@@ -76,7 +76,7 @@ function Portfolio() {
             href="https://github.com/jwilliams25400/Note-Taker.git"
             target="_blank"
             rel="noopener noreferrer"
-            className="m-2"
+            className="m-3"
           >
             Github
           </a>
@@ -99,7 +99,7 @@ function Portfolio() {
             href="https://github.com/jwilliams25400/Code--PWGenerator.git"
             target="_blank"
             rel="noopener noreferrer"
-            className="m-2"
+            className="m-3"
           >
             Github
           </a>
@@ -122,7 +122,7 @@ function Portfolio() {
             href="https://github.com/jwilliams25400/Code-Refractor.git"
             target="_blank"
             rel="noopener noreferrer"
-            className="m-2"
+            className="m-3"
           >
             Github
           </a>
@@ -145,7 +145,7 @@ function Portfolio() {
             href="https://github.com/jwilliams25400/Tech-Blog.git"
             target="_blank"
             rel="noopener noreferrer"
-            className="m-2"
+            className="m-3"
           >
             Github
           </a>
@@ -168,7 +168,7 @@ function Portfolio() {
             href="https://github.com/jwilliams25400/Code-Timed-Quiz.git"
             target="_blank"
             rel="noopener noreferrer"
-            className="m-2"
+            className="m-3"
           >
             Github
           </a>
@@ -191,7 +191,7 @@ function Portfolio() {
             href="https://jwilliams25400.github.io/Code-Weather-App/"
             target="_blank"
             rel="noopener noreferrer"
-            className="m-2"
+            className="m-3"
           >
             Github
           </a>
@@ -214,7 +214,7 @@ function Portfolio() {
             href="https://github.com/jwilliams25400/Code-Day-Planner"
             target="_blank"
             rel="noopener noreferrer"
-            className="m-2"
+            className="m-3"
           >
             Github
           </a>
