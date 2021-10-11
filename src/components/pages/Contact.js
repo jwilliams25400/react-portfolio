@@ -4,23 +4,17 @@ function Contact() {
   return (
     <div className="container wrapper contact-container">
       <div className="contact-info container m-8">
+        <div className="justify-content-center">
         <h2>Contact</h2>
-        <p>
-          Interested in learning more about my skills? I would enjoy learning more
+        </div>
+        <h5 style={{fontWeight: "bold"}}>
+          If your interested in learning more about my skills? I would enjoy learning more
           about the opportunity you have. Please feel free to reach out to me
           with the contact information listed below.
           <br />
           Thanks
-        </p>
+        </h5>
       </div>
-
-      {/* <div className="contact-details row">
-        <h4>917-941-6748</h4>
-        <br />
-        <h4>JWilliams25400@yahoo.com</h4>
-        <br />
-        <h4>JWilliams25400</h4>
-      </div> */}
     </div>
   );
 }

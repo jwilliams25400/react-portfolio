@@ -12,8 +12,8 @@ import workDayScheduler from "../../images/workDayScheduler.jpg";
 function Portfolio() {
   return (
     <div className="row wrapper-container">
-      <div className="cards">
-        <div className="col s6 m-4">
+      <div className="cards row justify-content-center">
+        <div className="col-5">
           <a href="https://fitness-tracker-jw21.herokuapp.com/">
             <h3>Fitness Tracker</h3>
           </a>
@@ -36,7 +36,7 @@ function Portfolio() {
           </a>
         </div>
 
-        <div className="col s6 m-4">
+        <div className="col-5">
           <a href="https://trgrf.github.io/MovieCharacters/">
             <h3>Movie Informer</h3>
           </a>
@@ -59,7 +59,7 @@ function Portfolio() {
           </a>
         </div>
 
-        <div className="col s6 m-4">
+        <div className="col-5">
           <a href="https://note-taker-jw21.herokuapp.com/">
             <h3>Note Taker</h3>
           </a>
@@ -82,7 +82,7 @@ function Portfolio() {
           </a>
         </div>
 
-        <div className="col s6 m-4">
+        <div className="col-5">
           <a href="https://jwilliams25400.github.io/Code--PWGenerator/">
             <h3>Password Generator</h3>
           </a>
@@ -105,7 +105,7 @@ function Portfolio() {
           </a>
         </div>
 
-        <div className="col s6 m-4">
+        <div className="col-5">
           <a href="https://jwilliams25400.github.io/Code-Refractor/">
             <h3>Refactor</h3>
           </a>
@@ -128,7 +128,7 @@ function Portfolio() {
           </a>
         </div>
 
-        <div className="col s6 m-4">
+        <div className="col-5">
           <a href="https://tech-blog-jw21.herokuapp.com/">
             <h3>Tech Blog</h3>
           </a>
@@ -151,7 +151,7 @@ function Portfolio() {
           </a>
         </div>
 
-        <div className="col s6 m-4">
+        <div className="col-5">
           <a href="https://jwilliams25400.github.io/Code-Timed-Quiz/">
             <h3>Timed Quiz</h3>
           </a>
@@ -174,7 +174,7 @@ function Portfolio() {
           </a>
         </div>
 
-        <div className="col s6 m-4">
+        <div className="col-5">
           <a href="https://github.com/jwilliams25400/Code-Weather-App.git">
             <h3>Weather Dashboard</h3>
           </a>
@@ -197,7 +197,7 @@ function Portfolio() {
           </a>
         </div>
 
-        <div className="col s6 m-4">
+        <div className="col-5">
           <a href="https://jwilliams25400.github.io/Code-Day-Planner/">
             <h3>Work Day Scheduler</h3>
           </a>

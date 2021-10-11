@@ -6,7 +6,7 @@ import React from "react";
 function Navbar({ currentPage, handlePageChange }) {
   return (
     // < className="nav nav-bar-expand-lg navbar-wrapper">
-      <nav className="navbar navbar-expand-lg nav-light bg-light">
+      <nav style={{justifyContent:"space-around"}}className="navbar navbar-expand-lg nav-light bg-light">
         <div className="name">
           <h1 className="name-logo">Jemel</h1>
         </div>
