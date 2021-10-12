@@ -6,7 +6,7 @@ import React from "react";
 function Navbar({ currentPage, handlePageChange }) {
   return (
     // < className="nav nav-bar-expand-lg navbar-wrapper">
-      <nav style={{justifyContent:"space-around"}}className="navbar navbar-expand-lg nav-light bg-light">
+      <nav style={{justifyContent:"space-around", textAlign: "center"}}className="navbar navbar-expand-lg nav-light bg-light">
         <div className="name">
           <h1 className="name-logo">Jemel</h1>
         </div>
@@ -23,9 +23,9 @@ function Navbar({ currentPage, handlePageChange }) {
             </a>
           </li>
 
-          <li className="nav nav-item">
+          <li className="nav nav-item"style={{alignContent:"center"}}>
             <a
-              href="http://linkedin.com/in/jemel-williamsicams-a5b14014/"
+              href="https://www.linkedin.com/in/jemel-williams-cams-a5b14014/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <div className="aboutme-wrapper">
       <div className="container">
-        <div className="photo-container justify-content-center col-lg-4">
+        <div className="photo-container d-md-flex justify-content-md-center col-lg-12">
           <img
             className="rounded-circle profile-img"
             src={profilePhoto}

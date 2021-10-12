@@ -6,6 +6,8 @@ import phone from "../images/phone.jpg";
 function Footer() {
   return (
     <footer className="sticky-bottom">
+      <br />
+      <br />
       <div className="container is-fluid">
         <div className="d-grid gap-2 d-md-flex justify-content-md-center col-lg-12">
 
@@ -21,6 +23,10 @@ function Footer() {
           <img src={github} 
           alt="foot-img"/>
           <h5>github.com/jwilliams25400</h5>
+        </div>
+        <br />
+        <div className="d-md-flex justify-content-md-center col-lg-12">
+          <h6> &#169; Jemel Williams, 2021</h6>
         </div>
       </div>
     </footer>
