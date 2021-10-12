@@ -11,7 +11,7 @@ https://www.github.com/JWilliams25400
 --------------------
 
 ## Technology
-### HTML, CSS, Javascript
+### HTML, CSS, Javascript, REACT, bootstrap
 --------------------
 
 ## Table of Contents:
@@ -33,18 +33,15 @@ https://www.github.com/JWilliams25400
 
 
 ## Installations:
-to ensure the repo runs open the terminal and run the following: 
-```none```
+### to ensure the repo runs open the terminal and run the following:
+### npx create, npm start
 
 --------------------
 
 ## Usage:
-### none 
+### require REACT
 --------------------
 
-## Test:
-### In order to run the repo, open the terminal and run the following: npm start
---------------------
 
 ## Contribute:
 ### feel free to send an email to the contact information listed below

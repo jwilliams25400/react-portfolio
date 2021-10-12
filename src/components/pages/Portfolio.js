@@ -8,6 +8,7 @@ import techBlog from "../../images/techBlog.jpg";
 import timedSportsQuiz from "../../images/timedSportsQuiz.jpg";
 import weatherDashboard from "../../images/weatherDashboard.jpg";
 import workDayScheduler from "../../images/workDayScheduler.jpg";
+import github from "../../images/github.jpg";
 
 function Portfolio() {
   return (
@@ -32,6 +33,7 @@ function Portfolio() {
             rel="noopener noreferrer"
             className="m-3"
           >
+            <img src={github} alt="github" />
             Github
           </a>
         </div>
@@ -55,6 +57,7 @@ function Portfolio() {
             rel="noopener noreferrer"
             className="m-3"
           >
+            <img src={github} alt="github" />
             Github
           </a>
         </div>
@@ -78,6 +81,7 @@ function Portfolio() {
             rel="noopener noreferrer"
             className="m-3"
           >
+            <img src={github} alt="github" />
             Github
           </a>
         </div>
@@ -101,6 +105,7 @@ function Portfolio() {
             rel="noopener noreferrer"
             className="m-3"
           >
+            <img src={github} alt="github" />
             Github
           </a>
         </div>
@@ -124,6 +129,7 @@ function Portfolio() {
             rel="noopener noreferrer"
             className="m-3"
           >
+            <img src={github} alt="github" />
             Github
           </a>
         </div>
@@ -147,6 +153,7 @@ function Portfolio() {
             rel="noopener noreferrer"
             className="m-3"
           >
+            <img src={github} alt="github" />
             Github
           </a>
         </div>
@@ -170,6 +177,7 @@ function Portfolio() {
             rel="noopener noreferrer"
             className="m-3"
           >
+            <img src={github} alt="github" />
             Github
           </a>
         </div>
@@ -193,6 +201,7 @@ function Portfolio() {
             rel="noopener noreferrer"
             className="m-3"
           >
+            <img src={github} alt="github" />
             Github
           </a>
         </div>
@@ -216,6 +225,7 @@ function Portfolio() {
             rel="noopener noreferrer"
             className="m-3"
           >
+            <img src={github} alt="github" />
             Github
           </a>
         </div>
