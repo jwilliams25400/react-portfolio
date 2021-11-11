@@ -32,21 +32,6 @@ function PortfolioContainer() {
 
       {renderPage()}
 
-      {/* <Switch>
-          <Route exact path="/" component={Home}>
-            <Home />
-          </Route>
-          <Route exact path="/AboutMe" component={AboutMe}>
-            <AboutMe />
-          </Route>
-          <Route exact path="/Contact"component={Contact}>
-            <Contact />
-          </Route>
-          <Route exact path="/Portfolio" component={Portfolio}>
-            <Portfolio />
-          </Route>
-        </Switch> */}
-
         <Footer />  
     </>
     // </Router>
