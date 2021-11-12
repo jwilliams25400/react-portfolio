@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d700267a.chunk.css",
+    "main.js": "/static/js/main.ef98ff0d.chunk.js",
+    "main.js.map": "/static/js/main.ef98ff0d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dc33665e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dc33665e.js.map",
+    "static/css/2.0f1110e3.chunk.css": "/static/css/2.0f1110e3.chunk.css",
+    "static/js/2.e8cf1554.chunk.js": "/static/js/2.e8cf1554.chunk.js",
+    "static/js/2.e8cf1554.chunk.js.map": "/static/js/2.e8cf1554.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0f1110e3.chunk.css.map": "/static/css/2.0f1110e3.chunk.css.map",
+    "static/css/main.d700267a.chunk.css.map": "/static/css/main.d700267a.chunk.css.map",
+    "static/js/2.e8cf1554.chunk.js.LICENSE.txt": "/static/js/2.e8cf1554.chunk.js.LICENSE.txt",
+    "static/media/fitnessTracker.b85dd658.jpg": "/static/media/fitnessTracker.b85dd658.jpg",
+    "static/media/App.css": "/static/media/hologram-bg.65cc7555.jpg",
+    "static/media/homephoto.8d489f46.jpg": "/static/media/homephoto.8d489f46.jpg",
+    "static/media/movieInformer.e2cae4a6.jpg": "/static/media/movieInformer.e2cae4a6.jpg",
+    "static/media/noteTaker.08ede3c4.jpg": "/static/media/noteTaker.08ede3c4.jpg",
+    "static/media/passwordGenerator.cf08849c.jpg": "/static/media/passwordGenerator.cf08849c.jpg",
+    "static/media/profile.cfc405cd.jpg": "/static/media/profile.cfc405cd.jpg",
+    "static/media/refactor.3879b3ac.jpg": "/static/media/refactor.3879b3ac.jpg",
+    "static/media/techBlog.c679367b.jpg": "/static/media/techBlog.c679367b.jpg",
+    "static/media/timedSportsQuiz.259b216a.jpg": "/static/media/timedSportsQuiz.259b216a.jpg",
+    "static/media/weatherDashboard.2d05839c.jpg": "/static/media/weatherDashboard.2d05839c.jpg",
+    "static/media/workDayScheduler.e1d354e3.jpg": "/static/media/workDayScheduler.e1d354e3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc33665e.js",
+    "static/css/2.0f1110e3.chunk.css",
+    "static/js/2.e8cf1554.chunk.js",
+    "static/css/main.d700267a.chunk.css",
+    "static/js/main.ef98ff0d.chunk.js"
+  ]
+}
