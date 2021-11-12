@@ -28,6 +28,10 @@
       "react-app/jest"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://jwilliams25400.github.io/react-portfolio/"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
