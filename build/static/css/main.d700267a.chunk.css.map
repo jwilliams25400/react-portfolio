@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AACA,KACI,4DAAiD,CACjD,oBACA","file":"main.d700267a.chunk.css","sourcesContent":["\r\nbody {\r\n    background-image: url(\"./images/hologram-bg.jpg\");\r\n    background-size: fill;\r\n    }"]}

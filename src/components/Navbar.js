@@ -25,7 +25,7 @@ function Navbar({ currentPage, handlePageChange }) {
 
           <li className="nav nav-item"style={{alignContent:"center"}}>
             <a
-              href="https://www.linkedin.com/in/jemel-williams-cams-a5b14014/"
+              href="https://www.linkedin.com/in/jemel-williams/"
               target="_blank"
               rel="noopener noreferrer"
             >

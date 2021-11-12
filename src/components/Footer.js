@@ -26,7 +26,7 @@ function Footer() {
         </div>
         <br />
         <div className="d-md-flex justify-content-md-center col-lg-12">
-          <h6> &#169; Jemel Williams, 2021</h6>
+          <h6> &#169; Jemel Williams 2021</h6>
         </div>
       </div>
     </footer>
